@@ -1,1 +1,1 @@
-<div id="copyright text-right">© Copyright 2023 STIKOM 22 Januari Kendari </div>
+<div id="copyright">© Copyright 2023 STIKOM 22 Januari Kendari </div>
