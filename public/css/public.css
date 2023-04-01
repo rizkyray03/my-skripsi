@@ -3,6 +3,79 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+.leftbar {
+    color: #000000 !important;
+}
+
+.judul-matkul {
+    font-weight: bold;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: regular;
+}
+
+.judul {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.main-card {
+    height: 100vh;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card-title {
+        font-size: small;
+    }
+    .badge {
+        font-size: 0.6rem;
+    }
+
+    .card-text {
+        font-size: small;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .card-title {
+        font-size: medium;
+    }
+
+    .card-text {
+        font-size: small;
+    }
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 46.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .footer {
     bottom: 0;
     width: 100%;
@@ -11,24 +84,4 @@ body {
     text-align: center;
     color: white;
     margin-top: auto;
-}
-
-.main {
-    height: 100vh;
-}
-
-/* .page {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-} */
-
-.matkul-section {
-    height: 80vh;
-    padding: 20px;
-    background-color: bisque;
-}
-
-.card-title {
-    font-size: 18px;
 }

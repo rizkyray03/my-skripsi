@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/matkul', function () {
     return view('pages.matkul');
 });
+
+Route::get('matkul/materi', function () {
+    return view('pages.materi');
+});

@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     @include('includes.head')
 </head>
+
 <body>
-    <style>
-        a{
-            text-decoration: none;
-        }
-    </style>
-    <div class="page">
-        <div class="header">
+    @include('includes.sidebar')
+    <div class="wrapper d-flex flex-column min-vh-100 bg-light">
+        <header class="header header-sticky mb-4 shadow-sm">
             @include('includes.header')
+            @include('includes.breadcrumbs')
+        </header>
+        <div class="body flex-grow-1 px-3">
+            <div class="container-fluid mb-3">
+                @yield('content')
+            </div>
         </div>
-        <div class="container">
-            @yield('content')
-        </div>
-        <div class="footer">
+        <footer class="footer">
             @include('includes.footer')
-        </div>
+        </footer>
     </div>
-    <script src="{{ asset('js/public.js') }}"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
+
 </html>
