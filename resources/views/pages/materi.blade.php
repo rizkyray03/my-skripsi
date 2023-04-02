@@ -81,8 +81,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="col-lg-9">
             <div class="card" style="width: 100%; height: 100%;">
                 <div class="card-body">
@@ -96,7 +94,8 @@
                             <strong>Deskripsi</strong>
                         </div>
                         <div class="card-body">
-                            <p class="text-medium-emphasis small">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <p class="text-medium-emphasis small text-truncate">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
                                 Eligendi, consequatur eaque recusandae
                                 fugiat unde quod?
                             </p>
@@ -112,7 +111,7 @@
                                         <a class="nav-link" href="#">Peserta</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Nilai</a>
+                                        <a class="nav-link" href="/matkul/materi/tugas">Tugas</a>
                                     </li>
                                 </ul>
                             </div>
