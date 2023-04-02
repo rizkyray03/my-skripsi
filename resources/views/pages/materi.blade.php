@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => 'Mata Kuliah'], ['page' => '/matkul'])
 @section('content')
     <div class="row">
-        <div class="col-lg-3 col-md-4 mb-3">
+        <div class=" col-lg-3 col-md-12 mb-3">
             <div class="card shadow" style="width: 100%;">
                 <div class="card-body">
                     <div class="row">
@@ -69,9 +69,7 @@
                 </div>
             </div>
         </div>
-
-
-        <div class="col">
+        <div class="col-lg-9">
             <div class="card" style="width: 100%; height: 100%;">
                 <div class="card-body">
                     <h3 class="judul">Pemrogramman Berorientasi Objek</h3>
@@ -84,7 +82,8 @@
                             <strong>Deskripsi</strong>
                         </div>
                         <div class="card-body">
-                            <p class="text-medium-emphasis small">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <p class="text-medium-emphasis small text-truncate">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
                                 Eligendi, consequatur eaque recusandae
                                 fugiat unde quod?
                             </p>
@@ -100,7 +99,7 @@
                                         <a class="nav-link" href="#">Peserta</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Nilai</a>
+                                        <a class="nav-link" href="/matkul/materi/tugas">Tugas</a>
                                     </li>
                                 </ul>
                             </div>
