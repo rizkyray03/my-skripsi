@@ -1,4 +1,4 @@
-<div class="sidebar sidebar-fixed" id="sidebar">
+<div class="sidebar sidebar-fixed hide" id="sidebar">
     <div class="sidebar-brand d-none d-md-flex">
         <div class="sidebar-brand-full">STIKOM LMS</div>
     </div>

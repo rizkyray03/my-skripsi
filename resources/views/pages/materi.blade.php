@@ -2,10 +2,10 @@
 @section('content')
     <div class="row">
         <div class="col-lg-3 col-md-4 mb-3">
-            <div class="card shadow" style="width: 100%;">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col">
+            <div class="row d-flex flex-wrap flex-column">
+                <div class="col">
+                    <div class="card shadow" style="width: 100%;">
+                        <div class="card-body">
                             <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -67,11 +67,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="col mt-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Pilih Pertemuan</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
 
-        <div class="col">
+        <div class="col-lg-9">
             <div class="card" style="width: 100%; height: 100%;">
                 <div class="card-body">
                     <h3 class="judul">Pemrogramman Berorientasi Objek</h3>
