@@ -1,4 +1,4 @@
-@extends('layouts.app' , ['title' => 'Home'],['page' => ''])
-@section('content')
-<p>Testing</p>
-@endsection
+<x-app title="Home Page">
+    @section('content')
+    @endsection
+</x-app>

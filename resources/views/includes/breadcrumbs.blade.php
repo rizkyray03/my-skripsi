@@ -4,7 +4,7 @@
             <li class="breadcrumb-item">
                 <!-- if breadcrumb is single--><span>Home</span>
             </li>
-            <li class="breadcrumb-item active"><span><a href="{{ $page }}">{{ $title }}</a></span></li>
+            <li class="breadcrumb-item active"><span><a href="#">Breadcrumbs</a></span></li>
         </ol>
     </nav>
 </div>
