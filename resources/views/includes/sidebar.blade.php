@@ -1,4 +1,4 @@
-<div class="sidebar sidebar-fixed hide" id="sidebar">
+<div class="sidebar sidebar-fixed {{ $sidebar }}" id="sidebar">
     <div class="sidebar-brand d-none d-md-flex">
         <div class="sidebar-brand-full">STIKOM LMS</div>
     </div>
@@ -12,7 +12,7 @@
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="dist/vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
-                </svg> Dashboard</a>
+                </svg>Dashboard</a>
             <ul class="nav-group-items">
                 <li class="nav-item"><a class="nav-link" href="dist/base/accordion.html"><span class="nav-icon"></span>
                         Mata Kuliah</a>

@@ -13,10 +13,12 @@ class App extends Component
      */
 
     public $title;
+    public $sidebar;
 
-    public function __construct($title)
+    public function __construct($title, $sidebar = 'hide')
     {
         $this->title = $title;
+        $this->sidebar = $sidebar;
     }
 
     /**

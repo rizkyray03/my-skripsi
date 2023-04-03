@@ -91,7 +91,7 @@
 
                         <div class="card mt-3">
                             <div class="card-header">
-                                <strong>Deskripsi</strong>
+                                <strong>Deskripsi video</strong>
                             </div>
                             <div class="card-body">
                                 <p class="text-medium-emphasis small text-truncate">Lorem ipsum dolor sit amet consectetur
@@ -102,7 +102,8 @@
                                 <div class="example">
                                     <ul class="nav nav-tabs">
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Instruksi</a>
+                                            <a class="nav-link active" aria-current="page" href="#">Instruksi
+                                                Materi</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Materi</a>

@@ -1,4 +1,4 @@
-<x-app title="Mata Kuliah">
+<x-app title="Mata Kuliah" sidebar="show">
     @section('content')
         <div class="row">
             <!--main-content-card-->

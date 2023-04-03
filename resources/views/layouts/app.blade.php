@@ -12,7 +12,7 @@
             @include('includes.header')
             @include('includes.breadcrumbs')
         </header>
-        <div class="body flex-grow-1 px-3">
+        <div class="body flex-grow-1">
             <div class="container-fluid mb-3">
                 @yield('content')
             </div>
