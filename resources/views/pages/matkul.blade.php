@@ -5,7 +5,7 @@
             <div class="col-lg-9 col-md-8">
                 <div class="card shadow" style="width: 100%; height: 100%;">
                     <div class="card-body">
-                        <div class="row d-flex text-wrap">
+                        <div class="row">
                             <x-matkul></x-matkul>
                             <x-matkul></x-matkul>
                         </div>
