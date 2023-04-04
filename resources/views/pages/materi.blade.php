@@ -1,10 +1,54 @@
 <x-app title="Materi">
     @section('content')
         <div class="row">
+            <div class="col-lg-9 col-md-8">
+                <div class="card" style="width: 100%; height: 100%;">
+                    <div class="card-body">
+                        <h3 class="judul">Pemrogramman Berorientasi Objek</h3>
+                        {{-- <div class="videoWrapper">
+                            <iframe src="//www.youtube.com/embed/" allowfullscreen></iframe>
+                        </div> --}}
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/SBmSRK3feww?rel=0" title="YouTube video"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card mt-3">
+                            <div class="card-header">
+                                <strong>Deskripsi video</strong>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-medium-emphasis small text-truncate">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Eligendi, consequatur eaque recusandae
+                                    fugiat unde quod?
+                                </p>
+                                <div class="example">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Instruksi
+                                                Materi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Materi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Peserta</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/matkul/materi/tugas">Tugas</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
             <div class="col-lg-3 col-md-4 mb-3">
                 <div class="row d-flex flex-wrap flex-column">
                     <div class="col">
-                        <div class="card shadow" style="width: 100%;">
+                        <div class="card shadow">
                             <div class="card-body">
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
@@ -81,48 +125,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-9">
-                <div class="card" style="width: 100%; height: 100%;">
-                    <div class="card-body">
-                        <h3 class="judul">Pemrogramman Berorientasi Objek</h3>
-                        <div class="videoWrapper">
-                            <iframe src="//www.youtube.com/embed/" allowfullscreen></iframe>
-                        </div>
-
-                        <div class="card mt-3">
-                            <div class="card-header">
-                                <strong>Deskripsi video</strong>
-                            </div>
-                            <div class="card-body">
-                                <p class="text-medium-emphasis small text-truncate">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                    Eligendi, consequatur eaque recusandae
-                                    fugiat unde quod?
-                                </p>
-                                <div class="example">
-                                    <ul class="nav nav-tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Instruksi
-                                                Materi</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Materi</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Peserta</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/matkul/materi/tugas">Tugas</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
 
         </div>
     @endsection
