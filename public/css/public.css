@@ -3,6 +3,10 @@ body {
     flex-direction: column;
 }
 
+.copy {
+    font-weight: 700;
+}
+
 /* Hide scrollbar for webkit-based browsers */
 ::-webkit-scrollbar {
     width: 0;
