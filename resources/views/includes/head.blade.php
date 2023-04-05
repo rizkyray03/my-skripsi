@@ -18,6 +18,6 @@
     <link rel="stylesheet" href="{{ asset('src/css/vendors/simplebar.css') }}">
     <!-- Main styles for this application-->
     <link href="  {{ asset('src/css/style.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="text/css" href="{{ asset('css/custom.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}">
 
     {{-- <link href="dist/vendors/@coreui/chartjs/css/coreui-chartjs.css" rel="stylesheet"> --}}
