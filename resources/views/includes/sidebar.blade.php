@@ -1,38 +1,60 @@
-<div class="sidebar sidebar-fixed {{ $sidebar }}" id="sidebar">
-    <div class="sidebar-brand d-none d-md-flex">
-        <div class="sidebar-brand-full">STIKOM LMS</div>
-    </div>
-    <ul class="sidebar-nav shadow" data-coreui="navigation" data-simplebar="">
-        <li class="nav-title">Menu</li>
-        <li class="nav-item"><a class="nav-link" href="/">
-                <svg class="nav-icon">
-                    <use xlink:href="src/vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
-                </svg> Home<span class="badge badge-sm bg-info ms-auto">NEW</span></a>
-        </li>
-        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-                <svg class="nav-icon">
-                    <use xlink:href="src/vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
-                </svg>Dashboard</a>
-            <ul class="nav-group-items">
-                <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>
-                        Mata Kuliah</a>
+<aside class="main-sidebar elevation-1 sidebar-light-warning">
+
+    <a href="index3.html" class="brand-link">
+        <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+            style="opacity: .8">
+        <span class="brand-text font-weight-light">AdminLTE 3</span>
+    </a>
+
+    <div class="sidebar">
+
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+                <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+            </div>
+            <div class="info">
+                <a href="#" class="d-block">Alexander Pierce</a>
+            </div>
+        </div>
+
+        <div class="form-inline">
+            <div class="input-group" data-widget="sidebar-search">
+                <input class="form-control form-control-sidebar" type="search" placeholder="Search"
+                    aria-label="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-sidebar">
+                        <i class="fas fa-search fa-fw"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                data-accordion="false">
+
+                <li class="nav-item menu-open">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Dashboard
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
                 </li>
+                <li class="nav-item">
+                    <a href="pages/widgets.html" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
+                        <p>
+                            Widgets
+                            <span class="right badge badge-danger">New</span>
+                        </p>
+                    </a>
+                </li>
+
             </ul>
-        </li>
-        <li class="nav-title">Theme</li>
-        <li class="nav-item"><a class="nav-link" href="colors.html">
-                <svg class="nav-icon">
-                    <use xlink:href="src/vendors/@coreui/icons/svg/free.svg#cil-drop"></use>
-                </svg> Colors</a>
-        </li>
-    </ul>
-    <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
-</div>
+        </nav>
 
+    </div>
 
-{{-- <svg class="sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
-        <use xlink:href="assets/brand/coreui.svg#full"></use>
-      </svg>
-      <svg class="sidebar-brand-narrow" width="46" height="46" alt="CoreUI Logo">
-        <use xlink:href="assets/brand/coreui.svg#signet"></use>
-      </svg> --}}
+</aside>

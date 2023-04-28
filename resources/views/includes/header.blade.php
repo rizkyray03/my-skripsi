@@ -1,76 +1,47 @@
-    <div class="container-fluid">
-        <button class="header-toggler px-md-0 me-md-3" type="button"
-            onclick="coreui.Sidebar.getInstance(document.querySelector('#sidebar')).toggle()">
-            <svg class="icon icon-lg">
-                <!-- Hamburger -->
-                <use xlink:href="{{ asset('src/vendors/@coreui/icons/svg/free.svg#cil-menu') }}"></use>
-            </svg>
-        </button><a class="header-brand d-md-none" href="#">
-            <span>Lms</span>
-            <ul class="header-nav d-none d-md-flex">
-                <li class="nav-item"><a class="nav-link" href="/">Dashboard</a></li>
-                <li class="nav-item"><a class="nav-link" href="/matkul">Mata Kuliah</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Manual</a></li>
-            </ul>
-            <ul class="header-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">
-                        <svg class="icon icon-lg">
-                            <use xlink:href="{{ asset('src/vendors/@coreui/icons/svg/free.svg#cil-bell') }}"></use>
-                        </svg></a></li>
-                <li class="nav-item"><a class="nav-link" href="#">
-                        <svg class="icon icon-lg">
-                            <use xlink:href="{{ asset('src/vendors/@coreui/icons/svg/free.svg#cil-list-rich') }}"></use>
-                        </svg></a></li>
-                <li class="nav-item"><a class="nav-link" href="#">
-                        <svg class="icon icon-lg">
-                            <use xlink:href="{{ asset('src/vendors/@coreui/icons/svg/free.svg#cil-envelope-open') }}">
-                            </use>
-                        </svg></a></li>
-            </ul>
-            <ul class="header-nav ms-3">
-                <li class="nav-item dropdown"><a class="nav-link py-0" data-coreui-toggle="dropdown" href="#"
-                        role="button" aria-haspopup="true" aria-expanded="false">
-                        <div class="avatar avatar-md"><img class="avatar-img"
-                                src="{{ asset('assets/img/avatars/8.jpg') }}" alt="user@email.com"></div>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-end pt-0">
-                        {{-- <div class="dropdown-header bg-light py-2">
-              <div class="fw-semibold">Account</div>
-            </div><a class="dropdown-item" href="#">
-              <svg class="icon me-2">
-                <use xlink:href="/dist/vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
-              </svg> Updates<span class="badge badge-sm bg-info ms-2">42</span></a><a class="dropdown-item" href="#">
-              <svg class="icon me-2">
-                <use xlink:href="/dist/vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
-              </svg> Messages<span class="badge badge-sm bg-success ms-2">42</span></a><a class="dropdown-item" href="#">
-              <svg class="icon me-2">
-                <use xlink:href="/dist/vendors/@coreui/icons/svg/free.svg#cil-task"></use>
-              </svg> Tasks<span class="badge badge-sm bg-danger ms-2">42</span></a><a class="dropdown-item" href="#">
-              <svg class="icon me-2">
-                <use xlink:href="/dist/vendors/@coreui/icons/svg/free.svg#cil-comment-square"></use>
-              </svg> Comments<span class="badge badge-sm bg-warning ms-2">42</span></a> --}}
-                        <div class="dropdown-header bg-light py-2">
-                            <div class="fw-semibold">Settings</div>
-                        </div><a class="dropdown-item" href="#">
-                            <svg class="icon me-2">
-                                <use xlink:href="src/vendors/@coreui/icons/svg/free.svg#cil-user"></use>
-                            </svg> Profile</a><a class="dropdown-item" href="#">
-                            <svg class="icon me-2">
-                                <use xlink:href="src/vendors/@coreui/icons/svg/free.svg#cil-settings"></use>
-                            </svg> Settings</a><a class="dropdown-item" href="#">
-                            <svg class="icon me-2">
-                                <use xlink:href="src/vendors/@coreui/icons/svg/free.svg#cil-credit-card"></use>
-                            </svg> Payments<span class="badge badge-sm bg-secondary ms-2">42</span></a><a
-                            class="dropdown-item" href="#">
-                            <svg class="icon me-2">
-                                <use xlink:href="src/vendors/@coreui/icons/svg/free.svg#cil-file"></use>
-                            </svg> Projects<span class="badge badge-sm bg-primary ms-2">42</span></a>
-                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#">
-                            <svg class="icon me-2">
-                                <use xlink:href="src/vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
-                            </svg> Logout</a>
+<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="index3.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="#" class="nav-link">Contact</a>
+        </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+            <div class="navbar-search-block">
+                <form class="form-inline">
+                    <div class="input-group input-group-sm">
+                        <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-navbar" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
                     </div>
-                </li>
-            </ul>
-    </div>
-    <div class="header-divider"></div>
+                </form>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+                <span href="#" class="d-block">Alexander Pierce</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
+                <a href="#" class="dropdown-item dropdown-footer">Profile</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item dropdown-footer">Logout</a>
+            </div>
+        </li>
+    </ul>
+</nav>

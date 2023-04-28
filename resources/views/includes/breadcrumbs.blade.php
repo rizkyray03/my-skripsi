@@ -1,10 +1,18 @@
-<div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb my-0 ms-2">
-            <li class="breadcrumb-item">
-                <!-- if breadcrumb is single--><span>Home</span>
-            </li>
-            <li class="breadcrumb-item active"><span><a href="#">Breadcrumbs</a></span></li>
-        </ol>
-    </nav>
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-left">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Dashboard v1</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard</h1>
+            </div>
+        </div>
+
+    </div>
 </div>

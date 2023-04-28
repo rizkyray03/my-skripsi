@@ -5,22 +5,47 @@
     @include('includes.head')
 </head>
 
-<body>
-    @include('includes.sidebar')
-    <div class="wrapper d-flex flex-column min-vh-100 bg-light">
-        <header class="header header-sticky mb-4 shadow-sm">
-            @include('includes.header')
+<body class="layout-fixed control-sidebar-slide-open {{ $sidebar }}">
+    <div class="wrapper">
+        @include('includes.header')
+        @include('includes.sidebar')
+        <div class="content-wrapper">
             @include('includes.breadcrumbs')
-        </header>
-        <div class="body flex-grow-1">
-            <div class="container-fluid mb-3">
-                @yield('content')
-            </div>
+            <section class="content">
+                <div class="container-fluid">
+                    @yield('content')
+                </div>
+            </section>
         </div>
-        <footer class="footer">
-            @include('includes.footer')
-        </footer>
+        @include('includes.footer')
     </div>
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="plugins/chart.js/Chart.min.js"></script>
+
+    <script src="plugins/sparklines/sparkline.js"></script>
+
+    <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+
+    <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/daterangepicker/daterangepicker.js"></script>
+
+    <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script src="plugins/summernote/summernote-bs4.min.js"></script>
+
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+
+    <script src="dist/js/adminlte.js?v=3.2.0"></script>
+
 </body>
 
 </html>

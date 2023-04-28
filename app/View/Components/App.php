@@ -15,7 +15,7 @@ class App extends Component
     public $title;
     public $sidebar;
 
-    public function __construct($title, $sidebar = 'hide')
+    public function __construct($title, $sidebar = 'sidebar-collapse')
     {
         $this->title = $title;
         $this->sidebar = $sidebar;
