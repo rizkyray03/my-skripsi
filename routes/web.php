@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,3 +29,6 @@ Route::get('matkul/materi', function () {
 Route::get('matkul/materi/tugas', function () {
     return view('pages.tugas');
 });
+
+//Route dari UserController
+Route::resource('users', UsersController::class);
