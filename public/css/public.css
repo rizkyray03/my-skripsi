@@ -3,24 +3,32 @@ body {
     flex-direction: column;
 }
 
+.sidebar {
+    background-color: #f4f6f9;
+}
+
+.content-wrapper {
+    background-color: #ffffff;
+}
+
 .copy {
     font-weight: 700;
 }
 
 /* Hide scrollbar for webkit-based browsers */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0;
     height: 0;
-}
+} */
 
 /* Optional: Add additional styling to scrollbar track and thumb */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
     background: #f1f1f1;
-}
+} */
 
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
     background: #888;
-}
+} */
 
 a {
     text-decoration: none !important;

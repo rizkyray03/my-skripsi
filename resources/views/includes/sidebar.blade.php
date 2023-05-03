@@ -1,14 +1,14 @@
 <aside class="main-sidebar elevation-1 sidebar-light-warning">
 
-    <a href="index3.html" class="brand-link">
-        <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+    <a href="#" class="brand-link">
+        <img src="assets/brand/brand-stikom.svg" alt="STIKOM 22 JANUARI-LMS" class="brand-image img-circle"
             style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">STIKOM 22 J-LMS</span>
     </a>
 
     <div class="sidebar">
 
-        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        {{-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
                 <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
             </div>
@@ -27,31 +27,67 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
 
-                <li class="nav-item menu-open">
+                {{-- <li class="nav-item menu-open">
                     <a href="#" class="nav-link active">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <i class="nav-icon fas fa-home-alt"></i>
                         <p>
-                            Dashboard
+                            Home
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="pages/widgets.html" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
+                        <i class="nav-icon fas fa-calendar"></i>
                         <p>
-                            Widgets
+                            Calendar
                             <span class="right badge badge-danger">New</span>
                         </p>
                     </a>
-                </li>
+                </li> --}}
 
+                <li>
+                    <a class="list-group-item list-group-item-action  " href="#" data-key="home">
+                        <div class="ml-0">
+                            <div class="media">
+                                <span class="media-left">
+                                    <i class="nav-icon fas fa-home fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="media-body ">Home</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="list-group-item mt-2 list-group-item-action " href="#" data-key="Matakuliah">
+                        <div class="ml-0">
+                            <div class="media">
+                                <span class="media-left">
+                                    <i class="nav-icon fas fa-calendar fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="media-body ">Mata Kuliah</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="list-group-item list-group-item-action " href="#" data-key="calendar">
+                        <div class="ml-0">
+                            <div class="media">
+                                <span class="media-left">
+                                    <i class="nav-icon fas fa-calendar fa-fw " aria-hidden="true"></i>
+                                </span>
+                                <span class="media-body ">Calendar</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </nav>
 
