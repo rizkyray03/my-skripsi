@@ -69,7 +69,7 @@
                         <div class="ml-0">
                             <div class="media">
                                 <span class="media-left">
-                                    <i class="nav-icon fas fa-calendar fa-fw " aria-hidden="true"></i>
+                                    <i class="nav-icon fas fa-book fa-fw " aria-hidden="true"></i>
                                 </span>
                                 <span class="media-body ">Mata Kuliah</span>
                             </div>
