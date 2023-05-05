@@ -2,9 +2,9 @@
     @section('content')
         <div class="row">
             <div class="col">
-                <x-card>
+                <div class="card">
                     <x-calendar></x-calendar>
-                </x-card>
+                </div>
             </div>
         </div>
         <script>
@@ -18,7 +18,7 @@
                     headerToolbar: {
                         left: 'prev,next today',
                         center: 'title',
-                        right: 'dayGridMonth,timeGridWeek,timeGridDay'
+                        right: 'listMonth,dayGridMonth,timeGridWeek,timeGridDay'
                     },
                     events: events
                 });

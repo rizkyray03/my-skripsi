@@ -53,7 +53,7 @@
                 </li> --}}
 
                 <li>
-                    <a class="list-group-item list-group-item-action  " href="#" data-key="home">
+                    <a class="list-group-item list-group-item-action  " href="/" data-key="home">
                         <div class="ml-0">
                             <div class="media">
                                 <span class="media-left">
@@ -77,7 +77,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="list-group-item list-group-item-action " href="#" data-key="calendar">
+                    <a class="list-group-item list-group-item-action " href="/calendar" data-key="calendar">
                         <div class="ml-0">
                             <div class="media">
                                 <span class="media-left">

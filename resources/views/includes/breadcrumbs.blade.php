@@ -1,7 +1,6 @@
 <div class="content-header">
     <div class="container-fluid">
-
-        <div class="col-12 pb-3">
+        <div class="col-12">
             <div class="card ">
                 <div class="card-body ">
                     <div class="d-sm-flex align-items-center">
@@ -21,16 +20,15 @@
                             <nav aria-label="Navigation bar">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a href="https://snl-moodle-demo.cengage.com/">Home</a>
+                                        <a href="#">Home</a>
                                     </li>
 
                                     <li class="breadcrumb-item">
-                                        <a href="https://snl-moodle-demo.cengage.com/course/index.php">Courses</a>
+                                        <a href="#">Courses</a>
                                     </li>
 
                                     <li class="breadcrumb-item">
-                                        <a href="https://snl-moodle-demo.cengage.com/course/view.php?id=399"
-                                            title="Integration Demo 1">Demo 1</a>
+                                        <a href="#" title="Integration Demo 1">Demo 1</a>
                                     </li>
 
                                     <li class="breadcrumb-item">Enrolment options</li>

@@ -6,8 +6,8 @@
 </head>
 
 <body class="layout-fixed control-sidebar-slide-open {{ $sidebar }}">
+    @include('includes.header')
     <div class="wrapper">
-        @include('includes.header')
         @include('includes.sidebar')
         <div class="content-wrapper">
             @include('includes.breadcrumbs')

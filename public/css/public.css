@@ -134,3 +134,21 @@ a {
     margin: 20px auto;
     padding: 0 10px;
 }
+
+/* Styles for large screens */
+@media only screen and (min-width: 1200px) {
+    /* CSS rules go here */
+}
+
+/* Styles for medium screens */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    /* CSS rules go here */
+}
+
+/* Styles for small screens */
+@media only screen and (max-width: 767px) {
+    /* CSS rules go here */
+    .content-wrapper {
+        background-color: #f4f6f9;
+    }
+}
