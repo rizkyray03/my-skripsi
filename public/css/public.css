@@ -3,6 +3,10 @@ body {
     flex-direction: column;
 }
 
+a {
+    color: black;
+}
+
 .sidebar {
     background-color: #f4f6f9;
 }
