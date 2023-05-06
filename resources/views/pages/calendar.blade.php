@@ -3,10 +3,10 @@
         <div class="content-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col">
                         <ol class="breadcrumb float-sm-left">
                             <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Dashboard v1</li>
+                            <li class="breadcrumb-item active">{{ Breadcrumbs::render('calendar') }}</li>
                         </ol>
                     </div>
                 </div>
