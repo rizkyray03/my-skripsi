@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.home');
-})->name('home');
+    return view('pages.dashboard.dashboard');
+})->name('dashboard');
 
 //Route dari CalendarController
 Route::resource('calendar', CalendarController::class);
