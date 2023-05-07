@@ -33,7 +33,7 @@
                 data-accordion="false">
 
                 <li class="nav-item menu-open">
-                    <a href="#" class="nav-link active">
+                    <a href="/" class="nav-link active">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
                             Dashboard
@@ -42,10 +42,18 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
+                    <a href="/matkul" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
                         <p>
                             Mata Kuliah
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/calendar" class="nav-link">
+                        <i class="nav-icon fas fa-calendar"></i>
+                        <p>
+                            Calendar
                         </p>
                     </a>
                 </li>
