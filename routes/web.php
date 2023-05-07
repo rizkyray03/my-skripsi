@@ -17,20 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.home');
-});
-
-Route::get('/matkul', function () {
-    return view('pages.matkul');
-});
-
-Route::get('matkul/materi', function () {
-    return view('pages.materi');
-});
-
-Route::get('matkul/materi/tugas', function () {
-    return view('pages.tugas');
-});
-
+})->name('home');
 
 //Route dari CalendarController
 Route::resource('calendar', CalendarController::class);

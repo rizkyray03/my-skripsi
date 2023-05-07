@@ -10,7 +10,6 @@
     <div class="wrapper">
         @include('includes.sidebar')
         <div class="content-wrapper">
-            {{-- @include('includes.breadcrumbs') --}}
             @yield('breadcrumbs')
             <section class="content">
                 <div class="container-fluid">

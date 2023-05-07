@@ -21,7 +21,6 @@ class CalendarController extends Controller
                 'end' => $event->end_date
             ];
         };
-
         return view('pages.calendar', ['events' => $events]);
     }
 

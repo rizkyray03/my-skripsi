@@ -2,14 +2,7 @@
     @section('breadcrumbs')
         <div class="content-header">
             <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <ol class="breadcrumb float-sm-left">
-                            <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                            <li class="breadcrumb-item active">{{ Breadcrumbs::render('calendar') }}</li>
-                        </ol>
-                    </div>
-                </div>
+                {{ Breadcrumbs::render('bc_calendar') }}
             </div>
         </div>
     @endsection
@@ -18,7 +11,7 @@
             <div class="col">
                 <div class="card">
                     <x-calendar>
-                        <h3>Calendar</h3>
+                        <h2 class="content-page-title">Calendar</h2>
                     </x-calendar>
                 </div>
             </div>
@@ -34,11 +27,12 @@
                     headerToolbar: {
                         left: 'prev,next today',
                         center: 'title',
-                        right: 'listMonth,dayGridMonth,timeGridWeek,timeGridDay'
+                        right: 'dayGridMonth listMonth timeGridWeek'
                     },
                     events: events
                 });
                 calendar.render();
+
             });
         </script>
     @endsection
