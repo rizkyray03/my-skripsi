@@ -1,4 +1,4 @@
-<aside class="main-sidebar elevation-1 sidebar-light-warning">
+<aside class="main-sidebar sidebar-light-warning elevation-1">
 
     <a href="#" class="brand-link">
         <img src="assets/brand/brand-stikom.svg" alt="STIKOM 22 JANUARI-LMS" class="brand-image img-circle"
