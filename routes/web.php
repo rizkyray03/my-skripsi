@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\UsersController;
+use App\Http\Controllers\CalendarController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,16 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.home');
-});
+})->name('home');
 
-Route::get('/matkul', function () {
-    return view('pages.matkul');
-});
+//Route dari CalendarController
+Route::resource('calendar', CalendarController::class);
 
-Route::get('matkul/materi', function () {
-    return view('pages.materi');
-});
-
-Route::get('matkul/materi/tugas', function () {
-    return view('pages.tugas');
-});
+//Route dari UserController
+Route::resource('users', UsersController::class);

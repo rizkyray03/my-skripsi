@@ -5,12 +5,12 @@
     @include('includes.head')
 </head>
 
-<body class="layout-fixed control-sidebar-slide-open {{ $sidebar }}">
+<body class="layout-fixed control-sidebar-slide-open {{ $sidebar }}" style="height: auto;">
+    @include('includes.header')
     <div class="wrapper">
-        @include('includes.header')
         @include('includes.sidebar')
         <div class="content-wrapper">
-            @include('includes.breadcrumbs')
+            @yield('breadcrumbs')
             <section class="content">
                 <div class="container-fluid">
                     @yield('content')
