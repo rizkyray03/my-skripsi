@@ -1,10 +1,8 @@
 <x-app title="Home Page" sidebar="show">
     @section('breadcrumbs')
-        <div class="content-header">
-            <div class="container">
-                {{ Breadcrumbs::render('bc_calendar') }}
-            </div>
-        </div>
+        <x-breadcrumbs>
+            {{ Breadcrumbs::render('bc_calendar') }}
+        </x-breadcrumbs>
     @endsection
     @section('content')
         <div class="row">

@@ -1,14 +1,8 @@
 <x-app title="Dashboard" sidebar=" ">
     @section('breadcrumbs')
-        <div class="content-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        {{ Breadcrumbs::render('bc_dashboard') }}
-                    </div>
-                </div>
-            </div>
-        </div>
+        <x-breadcrumbs>
+            {{ Breadcrumbs::render('bc_dashboard') }}
+        </x-breadcrumbs>
     @endsection
 
     @section('content')
